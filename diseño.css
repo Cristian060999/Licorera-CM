@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+.pagina{
+    margin: auto;
+    margin-top: 10px;
+    width: 1400px;
+    height: 1000px;
+    background-color: white;
+}
+
+.licorera{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: #234;
+    color: #fff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    width: 1350px;
+    padding: 5px;
+}
+
+.posicion{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 850px;
+}
+
+.registro{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #234;
+    color: #fff;
+    width: 500px;
+    height: 266px;
+}
+
+.quienSomos{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background: #234;
+    color: #fff;
+    width: 500px;
+    height: 266px;
+}
+
+.contacto{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    background: #234;
+    color: #fff;
+    width: 500px;
+    height: 266px;
+}
+
+.productos{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #234;
+    color: #fff;
+    width: 840px;
+    height: 840px;
+}
+
+.mensaje{
+    color: white;
+}
+
+.redes{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: 90px;
+    background-color: white;
+}
+img{
+    height: 60px;
+    padding: 15px;
+}
+
+.imgLicor{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: white;
+}
+
+.compra{
+    background: #234;
+    margin: auto;
+    width: 800px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.venta{
+    background: #234;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    height: 380px;
+}
+
+.compras{
+    background: #234;
+    margin-top: 20px;
+    margin: 10px;
+    float: left;
+    width: 380px;
+    height: 360px;
+}
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+.btnComprar{
+    padding: 20px;
+    background: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
