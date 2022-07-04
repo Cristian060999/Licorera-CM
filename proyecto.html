@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/diseño.css" type="text/css">
+    <title>Licorera CM</title>
+</head>
+<body>
+    <!--Contenedor de la pag-->
+    <div class="pagina">
+        <!--Encabezado de la pag-->
+        <div class="licorera">
+            <h1>Licorera CM</h1>
+            <img src="img/licor.png" alt="" srcset="" class="imgLicor">
+        </div>
+        
+        <!--Campo para ubicar 3 secciones de la pag-->
+        <div class="posicion">
+            <!--Campo de registro-->
+            <div class="registro" id="registro">
+                <h3>Registrate</h3>
+                <p>Regalanos tus datos para recordarte</p><br>
+                <p>Nombre de usuario:</p>
+                <input type="text" id="registroNombre"><br><br>
+                <P>Contraseña:</P>
+                <input type="text" id="registroContraseña"><br><br>
+                <div class="guardar">
+                    <input type="button" value="Guardar" id="guardar">
+                </div>
+                <div class="mensaje" id="mensaje">
+                </div>
+            </div>
+            <!--Campo de Quien somos?-->
+            <div class="quienSomos" id="quienSomos">
+                <h1>¿Quienes somos?</h1><br>
+                <h3>Somos una empresa dedicada a la venta y distribucion de los mejores licores, <br>
+                    en nuestra pagina encontraras gran cantidad de variedad para que disfrutes <br></h3>
+
+            </div>
+            <!--Campo de contacto-->
+            <div class="contacto">
+                <h1>Nuestras redes sociales</h1><br>
+                <div class="redes">
+                    <a href="https://www.facebook.com/"><img src="img/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/"><img src="img/twitter.png" alt=""></a>
+                    <a href="https://www.youtube.com/"><img src="img/youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!--Campo de productos-->
+        <div class="productos" id="productos">
+            <h1>PRODUCTOS</h1>
+            
+            <div class="compra">
+                <!--Seccion donde se elige la categoria de los licores-->
+                <div class="compras" id="categorias">
+                    <h2>Categorias</h2>
+                    <h4>Elige la categoria de bebidas que deseas:</h4>
+                    <select name="tipoLicores" id="categoriaLicores">
+                        <option value="">Tipo de licores</option>
+                        <option value="bebidasFermentadas">Bebidas fermentadas</option>
+                        <option value="bebidasDestiladas">Bebidas destiladas</option>
+                        <option value="bebidasFortificadas">Bebidas fortificadas</option>
+                        <option value="licoresYcremas">Licores y cremas</option>
+                    </select>
+                </div>
+                <!--Seccion donde aparece los diferentes licores de acuerdo a la seleccion anterior-->
+                <div class="compras" id="licores">
+                    <h2>Licores</h2>
+                </div>
+
+            </div>
+            <!--Campo donde se muestra las seleccion de productos del usuario-->
+            <div class="venta" id="venta">
+                <table>
+                    <h3>Listado de productos seleccionados</h3>
+                    <tr>
+                        <td>PRODUCTO</td>
+                        <td>VALOR</td>
+                        <td>CANTIDAD</td>
+                        <td>TOTAL</td>
+                    </tr>
+                </table>
+                <button id="btnComprar" class="btnComprar"><a href="https://www.pse.com.co/persona">COMPRAR</a></button>
+            </div>
+
+        </div>       
+    </div>
+
+    <script src="js/elementos.js"></script>
+    <script src="js/registro.js"></script>
+    <script src="js/funciones.js"></script>
+</body>
+</html>
